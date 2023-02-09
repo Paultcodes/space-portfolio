@@ -1,0 +1,41 @@
+.navDiv {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  /* border: 1px solid red; */
+}
+
+.navButton {
+  background: none;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 4px;
+  border-color: white;
+  cursor: pointer;
+  align-items: center;
+  font-size: 14px;
+  transition: border-color 0.8s;
+}
+
+.navButton:hover {
+  /* padding: 7px; */
+  border-color: yellow;
+}
+
+
+@media (max-width: 665px) {
+  .navDiv {
+    gap: 1rem;
+
+  }
+
+  .navButton {
+    padding: 0px;
+    font-size: 12px;
+    width: 70px;
+  }
+}
