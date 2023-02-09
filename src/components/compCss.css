@@ -26,6 +26,13 @@
   border-color: yellow;
 }
 
+.footerSection {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+
+}
+
 
 @media (max-width: 665px) {
   .navDiv {

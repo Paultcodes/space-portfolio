@@ -1,15 +1,24 @@
+import { useEffect, useState } from 'react';
+import Project from './Project';
+import '../mainPage/mainPage.css';
+import noteTaker from '../sections/assets/images/noteTaker.png';
+
 const Portfolio = () => {
-    return (
-      <div>
-        <h1>Portfolio</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur veniam
-          architecto vitae asperiores veritatis nostrum, optio assumenda ad, ab,
-          obcaecati dolore voluptates? Debitis, vitae. Autem, nihil deleniti.
-          Sint, iste dolore.
-        </p>
+  const [fadeIn, setFadeIn] = useState(false);
+
+  useEffect(() => {
+    setFadeIn(true);
+  }, []);
+  return (
+    <div className={`fade-in ${fadeIn ? 'visible' : ''}`}>
+      <h1>Portfolio</h1>
+      <div className='projectSection'>
+        <Project picture={noteTaker} projectName="Note Taker" link={'https://github.com/Paultcodes'}/>
+        <Project picture={noteTaker} projectName="Note Taker" />
+        <Project picture={noteTaker} projectName="Note Taker" />
       </div>
-    );
-  };
-  
-  export default Portfolio;
+    </div>
+  );
+};
+
+export default Portfolio;

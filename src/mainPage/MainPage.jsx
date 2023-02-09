@@ -4,6 +4,7 @@ import AboutMe from '../sections/AboutMe';
 import Portfolio from '../sections/Portfolio';
 import Contact from '../sections/Contact';
 import Resume from '../sections/Resume';
+import Footer from '../components/Footer';
 import { FaMoon } from 'react-icons/fa';
 import { FaLightbulb } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
@@ -11,8 +12,6 @@ import './mainPage.css';
 
 const MainPage = () => {
   const [currentSection, setCurrentSection] = useState('aboutMe');
-
- 
 
   const handleCurrentSection = (section) => {
     setCurrentSection(section);
@@ -50,7 +49,10 @@ const MainPage = () => {
           handleCurrentSection={handleCurrentSection}
         />
       </div>
-      <div style={{ color: darkMode ? 'black' : 'white' }}>
+      <div
+        className="bottomSection"
+        style={{ color: darkMode ? 'black' : 'white' }}
+      >
         {currentSection === 'aboutMe' ? (
           <AboutMe />
         ) : currentSection === 'portfolio' ? (
@@ -60,6 +62,9 @@ const MainPage = () => {
         ) : (
           <Resume />
         )}
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
