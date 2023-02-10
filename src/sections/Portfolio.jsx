@@ -11,7 +11,7 @@ const Portfolio = () => {
   }, []);
   return (
     <div className={`fade-in ${fadeIn ? 'visible' : ''}`}>
-      <h1>Portfolio</h1>
+      <h1 style={{textAlign: 'center'}}>Portfolio</h1>
       <div className='projectSection'>
         <Project picture={noteTaker} projectName="Note Taker" link={'https://github.com/Paultcodes'}/>
         <Project picture={noteTaker} projectName="Note Taker" />
