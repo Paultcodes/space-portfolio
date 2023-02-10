@@ -13,8 +13,10 @@ const Contact = () => {
   const [error, setError] = useState(false);
 
   const handleBlur = (e) => {
-    if (!formData[e.target.value]) {
-      setError(true)
+    if (!e.target.value) {
+      setError(true);
+    } else {
+      setError(false)
     }
   };
 
@@ -70,7 +72,7 @@ const Contact = () => {
         <button type="submit" onClick={handleSubmit}>
           Submit
         </button>
-        {error && <p style={{ color: 'white' }}>All fields are required</p>}
+        {error ? <p style={{ color: 'white' }}>All fields are required</p> : ''}
       </form>
     </div>
   );
