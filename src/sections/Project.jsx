@@ -10,20 +10,18 @@ const Project = (props) => {
     color: darkTheme ? 'black' : 'white',
   };
   return (
-    <a href={props.link}>
-      <div className="projectCard">
-        <img className="projectPicture" src={props.picture} alt="" />
-        <h2>{props.projectName}</h2>
-        <div className="projectLinks">
-          <a style={style} href="">
-            <FaGithub />
-          </a>
-          <a style={style} href="">
-            <CgWebsite />
-          </a>
-        </div>
+    <div className="projectCard">
+      <img className="projectPicture" src={props.picture} alt="" />
+      <h2>{props.projectName}</h2>
+      <div className="projectLinks">
+        <a style={style} href={props.github}>
+          <FaGithub />
+        </a>
+        <a style={style} href={props.website}>
+          <CgWebsite />
+        </a>
       </div>
-    </a>
+    </div>
   );
 };
 
