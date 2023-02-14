@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/space-portfolio/static/css/main.61fd93c7.css",
+    "main.js": "/space-portfolio/static/js/main.64153c34.js",
+    "static/media/pexels-adam-krypel-6498990.jpg": "/space-portfolio/static/media/pexels-adam-krypel-6498990.81684a87eaddd25677cc.jpg",
+    "static/media/codnet.jpg": "/space-portfolio/static/media/codnet.02b6aaaa2bc0846d7e85.jpg",
+    "static/media/areYouNotEntertained.jpg": "/space-portfolio/static/media/areYouNotEntertained.7a5bf708ff506f476bd9.jpg",
+    "static/media/profilepicture.jpg": "/space-portfolio/static/media/profilepicture.bb7f9157681f9e62bd18.jpg",
+    "static/media/myResume.jpg": "/space-portfolio/static/media/myResume.ab04bce12286460aac0e.jpg",
+    "static/media/MVC.jpg": "/space-portfolio/static/media/MVC.2c8783dbc09c13d599d0.jpg",
+    "static/media/jate.jpg": "/space-portfolio/static/media/jate.f8f4567098546473ade7.jpg",
+    "static/media/workday.png": "/space-portfolio/static/media/workday.cd850ab21a36db08156c.png",
+    "static/media/noteTaker.png": "/space-portfolio/static/media/noteTaker.5d3738a1ed2dd3f485ab.png",
+    "index.html": "/space-portfolio/index.html",
+    "main.61fd93c7.css.map": "/space-portfolio/static/css/main.61fd93c7.css.map",
+    "main.64153c34.js.map": "/space-portfolio/static/js/main.64153c34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61fd93c7.css",
+    "static/js/main.64153c34.js"
+  ]
+}
