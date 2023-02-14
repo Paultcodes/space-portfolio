@@ -7,6 +7,10 @@ const NavBar = (props) => {
       <button
         style={{
           borderColor: props.currentSection === 'aboutMe' ? 'grey' : 'white',
+          color: 'white' ,
+          backgroundColor: props.currentSection === 'aboutMe' ? 'black' : '',
+          borderRadius: '10px',
+          padding: '7px'
         }}
         onClick={() => {
           props.handleCurrentSection('aboutMe');
@@ -18,6 +22,10 @@ const NavBar = (props) => {
       <button
         style={{
           borderColor: props.currentSection === 'portfolio' ? 'grey' : 'white',
+          color: 'white' ,
+          backgroundColor: props.currentSection === 'portfolio' ? 'black' : '',
+          borderRadius: '10px',
+          padding: '7px'
         }}
         onClick={() => {
           props.handleCurrentSection('portfolio');
@@ -29,6 +37,10 @@ const NavBar = (props) => {
       <button
         style={{
           borderColor: props.currentSection === 'contact' ? 'grey' : 'white',
+          color: 'white' ,
+          backgroundColor: props.currentSection === 'contact' ? 'black' : '',
+          borderRadius: '10px',
+          padding: '7px'
         }}
         onClick={() => {
           props.handleCurrentSection('contact');
@@ -40,6 +52,10 @@ const NavBar = (props) => {
       <button
         style={{
           borderColor: props.currentSection === 'resume' ? 'grey' : 'white',
+          color: 'white' ,
+          backgroundColor: props.currentSection === 'resume' ? 'black' : '',
+          borderRadius: '10px',
+          padding: '7px'
         }}
         onClick={() => {
           props.handleCurrentSection('resume');
