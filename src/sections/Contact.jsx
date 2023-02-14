@@ -54,9 +54,11 @@ const Contact = () => {
 
   //Logic for for when inputs lose focus
   const [error, setError] = useState(false);
+  const [errorMessage, setErrorMessage] = useState(``);
 
   const handleBlur = (e) => {
     if (!e.target.value) {
+      setErrorMessage(`${e.target.name} is required`);
       setError(true);
     } else {
       setError(false);
@@ -111,9 +113,7 @@ const Contact = () => {
           Submit <FaRocket />
         </button>
         {error ? (
-          <p style={{ color: darkTheme ? 'black' : 'white' }}>
-            All fields are required
-          </p>
+          <p style={{ color: darkTheme ? 'black' : 'white' }}>{errorMessage}</p>
         ) : (
           ''
         )}
