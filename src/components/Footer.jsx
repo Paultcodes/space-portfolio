@@ -2,6 +2,7 @@ import { FaGithub } from 'react-icons/fa';
 import { useContext } from 'react';
 import {FaTwitter} from 'react-icons/fa'
 import { ThemeContext } from '../mainPage/MainPage';
+import {FaLinkedin} from 'react-icons/fa'
 import '../mainPage/mainPage.css'
 
 const Footer = () => {
@@ -18,8 +19,8 @@ const Footer = () => {
       <a style={style} href="https://twitter.com/PaulTCodes">
         <FaTwitter />
       </a>
-      <a style={style} href="https://github.com/Paultcodes">
-        <FaGithub />
+      <a style={style} href="https://www.linkedin.com/in/paul-taylor-485498266/">
+        <FaLinkedin/> 
       </a>
     </div>
   );

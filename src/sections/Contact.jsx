@@ -49,7 +49,13 @@ const Contact = () => {
 
     if (email && name && message && validateEmail(email)) {
       setSuccessMessage(true);
+      setFormData({
+        name: '',
+        email: '',
+        message: '',
+      })
     }
+
   };
 
   //Logic for for when inputs lose focus
@@ -62,6 +68,7 @@ const Contact = () => {
       setError(true);
     } else {
       setError(false);
+      setErrorMessage(``);
     }
   };
 
