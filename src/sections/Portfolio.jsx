@@ -4,6 +4,9 @@ import '../mainPage/mainPage.css';
 import noteTaker from '../sections/assets/images/noteTaker.png';
 import mvcTechBlog from '../sections/assets/images/MVC.jpg';
 import codeNet from '../sections/assets/images/codnet.jpg'
+import jate from '../sections/assets/images/jate.jpg'
+import workday from '../sections/assets/images/workday.png'
+import areYouNotEntertained from '../sections/assets/images/areYouNotEntertained.jpg'
 
 const Portfolio = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -34,22 +37,22 @@ const Portfolio = () => {
           website={'https://protected-wave-25502.herokuapp.com/signup/user'}
         />
          <Project
-          picture={codeNet}
-          projectName="Code Net"
-          github={'https://github.com/Paultcodes/Code-Net'}
-          website={'https://protected-wave-25502.herokuapp.com/signup/user'}
+          picture={jate}
+          projectName="JATE"
+          github={'https://github.com/Paultcodes/PWA-Text-Editor'}
+          website={'https://limitless-sea-11692.herokuapp.com/'}
         />
          <Project
-          picture={codeNet}
-          projectName="Code Net"
-          github={'https://github.com/Paultcodes/Code-Net'}
-          website={'https://protected-wave-25502.herokuapp.com/signup/user'}
+          picture={workday}
+          projectName="Work Day Scheduler"
+          github={'https://github.com/Paultcodes/Work-Day-Scheduler-'}
+          website={'https://paultcodes.github.io/Work-Day-Scheduler-/'}
         />
          <Project
-          picture={codeNet}
-          projectName="Code Net"
-          github={'https://github.com/Paultcodes/Code-Net'}
-          website={'https://protected-wave-25502.herokuapp.com/signup/user'}
+          picture={areYouNotEntertained}
+          projectName="Are You Not Entertained"
+          github={'https://github.com/Paultcodes/Are-You-Not-Entertained'}
+          website={'https://paultcodes.github.io/Are-You-Not-Entertained/'}
         />
       </div>
     </div>

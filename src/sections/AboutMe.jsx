@@ -1,8 +1,9 @@
 import { FaPencilAlt } from 'react-icons/fa';
+import profilePicture from './assets/images/profilepicture.jpg'
 import './assets/sectionStyle.css';
 import { useState, useEffect } from 'react';
 import '../mainPage/mainPage.css';
-import { contentText } from './assets/content';
+
 const AboutMe = () => {
   const [fadeIn, setFadeIn] = useState(false);
 
@@ -13,6 +14,7 @@ const AboutMe = () => {
     <div className={`fade-in ${fadeIn ? 'visible' : ''}`}>
       <div className="aboutMeSection">
         <h1 className="aboutMeHeader">About Me</h1>
+        <img className='profile-picture' src={profilePicture} alt="" />
         <p className='aboutMeText'>
           Hello, my name is Paul Taylor and I am a 27-year-old junior software
           developer. I grew up in Kansas and have always had a passion for

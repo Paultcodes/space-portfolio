@@ -129,6 +129,12 @@
   cursor: pointer;
 }
 
+.profile-picture {
+  width: 150px;
+  border-radius: 10px;
+  
+}
+
 .fade-in {
   opacity: 0;
   transition: opacity 5s;
@@ -136,6 +142,11 @@
 
 .fade-in.visible {
   opacity: 1;
+}
+
+.footerSection {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 665px) {

@@ -14,10 +14,10 @@ const Project = (props) => {
       <img className="projectPicture" src={props.picture} alt="" />
       <h2>{props.projectName}</h2>
       <div className="projectLinks">
-        <a style={style} href={props.github}>
+        <a target='_blank' rel='noreferrer' style={style} href={props.github}>
           <FaGithub />
         </a>
-        <a style={style} href={props.website}>
+        <a target='_blank' rel='noreferrer' style={style} href={props.website}>
           <CgWebsite />
         </a>
       </div>
