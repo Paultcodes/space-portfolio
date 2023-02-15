@@ -29,8 +29,8 @@ To run this project, you need to have Node.js and npm installed on your machine.
 ## Author
 Paul Taylor
 
-## Demo ![spacePort](https://user-images.githubusercontent.com/111453328/218913903-22602acf-890b-4bfd-a3e7-40a521254a68.jpg)
+## Demo Here is a link to the deployed website https://paultcodes.github.io/space-portfolio/ ![spacePort](https://user-images.githubusercontent.com/111453328/218913903-22602acf-890b-4bfd-a3e7-40a521254a68.jpg)
 
-Here is a link to the deployed website https://paultcodes.github.io/space-portfolio/
+
 
 
