@@ -6,6 +6,7 @@ import mvcTechBlog from '../sections/assets/images/MVC.jpg';
 import codeNet from '../sections/assets/images/codnet.jpg'
 import jate from '../sections/assets/images/jate.jpg'
 import workday from '../sections/assets/images/workday.png'
+import devSync from '../sections/assets/images/devsync.png'
 import areYouNotEntertained from '../sections/assets/images/areYouNotEntertained.jpg'
 
 const Portfolio = () => {
@@ -53,6 +54,12 @@ const Portfolio = () => {
           projectName="Are You Not Entertained"
           github={'https://github.com/Paultcodes/Are-You-Not-Entertained'}
           website={'https://paultcodes.github.io/Are-You-Not-Entertained/'}
+        />
+         <Project
+          picture={devSync}
+          projectName="DevSync"
+          github={'https://github.com/Paultcodes/DevSync'}
+          website={'https://aqueous-island-09635.herokuapp.com/#/'}
         />
       </div>
     </div>
